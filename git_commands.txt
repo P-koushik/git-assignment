@@ -1,0 +1,70 @@
+# Git Commands Used in the Assignment
+
+1. `mkdir git-assignment`
+   - Creates a new project directory.
+
+2. `cd git-assignment`
+   - Navigates into the project directory.
+
+3. `git init -b main`
+   - Initializes a new Git repository with main as the default branch.
+
+4. `git status`
+   - Displays the current repository status and modified files.
+
+5. `git add .`
+   - Stages all new and modified files for committing.
+
+6. `git commit -m "Initial commit: Add HTML files"`
+   - Records the initial project files in Git history.
+
+7. `git add index.html`
+   - Stages the modified index.html file.
+
+8. `git commit -m "Update home page content"`
+   - Records changes made to the home page.
+
+9. `git branch feature`
+   - Creates a new branch named feature.
+
+10. `git switch feature`
+    - Switches to the feature branch.
+
+11. `git add about.html`
+    - Stages changes made to about.html.
+
+12. `git commit -m "Add feature branch content"`
+    - Saves the feature branch changes.
+
+13. `git switch main`
+    - Switches back to the main branch.
+
+14. `git merge feature -m "Merge feature branch into main"`
+    - Merges feature branch changes into main.
+
+15. `git log --oneline --graph --all --decorate`
+    - Displays commit history and branch structure.
+
+16. `git add .gitignore`
+    - Stages the .gitignore file.
+
+17. `git commit -m "Add gitignore configuration"`
+    - Records the .gitignore configuration.
+
+18. `git commit -m "Add temporary content"`
+    - Records an additional change before performing the undo operation.
+
+19. `git revert HEAD`
+    - Reverses the latest commit by creating a new commit.
+
+20. `git remote add origin https://github.com/YOUR-USERNAME/git-assignment.git`
+    - Connects the local repository to the GitHub repository.
+
+21. `git push -u origin main`
+    - Pushes the main branch to GitHub and sets its upstream.
+
+22. `git push origin feature`
+    - Pushes the feature branch to GitHub.
+
+23. `git status`
+    - Checks the final working tree status.
